@@ -35,8 +35,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
     
   //compute the max of size1 and (y_offset + size2).  Call this h
   int h = (size1 > (y_offset + size2)) ? size1 : (y_offset + size2);
-
-  printf("h: %d, w: %d\n", h, w);
+  
   for (int y = 0; y < h; y++) {
         for (int x = 0; x < w; x++) {
             if((isInRange(x, x_offset, size2) && isAtBorder(y, y_offset, size2 -1))
