@@ -42,17 +42,13 @@ rectangle intersection(rectangle r1, rectangle r2) {
     r2 = canonicalize(r2);
     
     rectangle result;
-    
-    // Find overlapping region boundaries
-    result.x = max(r1.x, r2.x);
-    int right = min(r1.x + r1.width, r2.x + r2.width);
-    
+
+    // Shorter defining overlapping x, y, width and height
+    result.x = max(r1.x, r2.x); 
+    result.width = min(r1.x + r1.width, r2.x + r2.width) - max(r1.x, r2.x);
+
     result.y = max(r1.y, r2.y);
-    int top = min(r1.y + r1.height, r2.y + r2.height);
-    
-    // Calculate width and height
-    result.width = right - result.x;
-    result.height = top - result.y;
+    result.height = min(r1.y + r1.height, r2.y + r2.height) - max(r1.y, r2.y);
     
     // Check if one rectangle's bottom touches the other's top
     if ((r1.y + r1.height == r2.y || r2.y + r2.height == r1.y) && 
