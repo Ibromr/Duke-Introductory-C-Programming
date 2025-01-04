@@ -1,4 +1,4 @@
-Grading at Sat 28 Dec 2024 04:16:46 AM UTC
+Grading at Sat 04 Jan 2025 06:39:14 AM UTC
 Attempting to compile rectangle.c
 Tring to run rectangle
 Your file matched the expected output
