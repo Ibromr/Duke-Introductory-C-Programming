@@ -5,12 +5,12 @@ typedef struct _retire_info {
     int months;
     double contribution;
     double rate_of_return;
-} retire_info;
+} _retire_info;
 
 void retirement(int startAge,       // in months
                 double initial,      // initial savings in dollars
-                retire_info working, // info about working
-                retire_info retired)  // info about being retired
+                _retire_info working, // info about working
+                _retire_info retired)  // info about being retired
                                     {
      double balance = initial;
     
@@ -38,12 +38,12 @@ void retirement(int startAge,       // in months
 
 int main(void){
    
-    retire_info working;
+    _retire_info working;
     working.months = 489;
     working.contribution = 1000;
     working.rate_of_return = 0.045/12;
 
-    retire_info retired;
+    _retire_info retired;
     retired.months = 384;
     retired.contribution = -4000;
     retired.rate_of_return = 0.01/12;
