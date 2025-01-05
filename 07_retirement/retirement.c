@@ -50,7 +50,7 @@ int main(void){
 
     // Starting conditions
     int Age = 327;  // 27 years, 3 months
-    double Savings = 21.345;
+    double Savings = 21345.00;
 
     retirement(Age, Savings, working, retired);
     return EXIT_SUCCESS;
