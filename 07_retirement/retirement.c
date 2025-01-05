@@ -38,18 +38,20 @@ void retirement(int startAge,       // in months
 
 int main(void){
    
-    // working.months = 489;
-    // working.contribution = 1000;
-    // working.rate_of_return = 0.045/12;
+    retire_info working;
+    working.months = 489;
+    working.contribution = 1000;
+    working.rate_of_return = 0.045/12;
 
-    
-    // retired.months = 384;
-    // retired.contribution = -4000;
-    // retired.rate_of_return = 0.01/12;
+    retire_info retired;
+    retired.months = 384;
+    retired.contribution = -4000;
+    retired.rate_of_return = 0.01/12;
 
     // Starting conditions
-    // int Age = 327;  // 27 years, 3 months
-    // double Savings = 21.345;
+    int Age = 327;  // 27 years, 3 months
+    double Savings = 21.345;
 
+    retirement(Age, Savings, working, retired);
     return EXIT_SUCCESS;
 }
