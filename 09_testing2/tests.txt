@@ -1,17 +1,9 @@
-d- 213
-12- 222
-00000 0000
-aaaaaa bbbbb
-aaaaa aaaaa
-aaaaa aaaab
-aaaaa aaaac
-aaabb aaaac
+aaaaa bbbbb
+           
+bababb babab
+aaaaa bbbbc
+aaabb bbbbc
+!@#$% %$#@!
 abbbb abbbc
 aabcc bbccc
-abbcc aabbb
-abcde abcee
-aabcd abcdd
-12345 54321
-!@#$% %$#@!
-aabbc bbccd
-aaabc abcc
+
