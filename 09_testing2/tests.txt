@@ -1,0 +1,41 @@
+aaaa bbbbb         # tie, both have 5 of a kind
+aaaaa bbbbc         # hand1 wins: 5 > 4
+aaaab bbbbb         # hand2 wins: 5 > 4
+aaabb bbbcc         # tie: both have 3
+aaabc bbbcc         # hand2 wins: 3 > 2
+abcde fghij         # tie: no matches
+aabbb ccccc         # hand2 wins: 5 > 3
+abcaa xyzab         # hand1 wins: pair > nothing
+abccc aaaaa         # hand2 wins: 5 > 3
+abcaa aabba         # hand2 wins: 3 > 2
+aaaab aabba         # tie: both 3
+aabcd aabcc         # tie: both 2
+aabbb aabbb         # tie: identical hands
+aaaab aaaac         # tie: both 4
+aaabc aabcc         # hand2 wins: 2 pairs > 2
+abcde aabcd         # hand2 wins: pair > nothing
+12
+23423 12312
+123123123
+-1 2-
+d- 213
+12- 222
+00000 0000
+
+aaaaaa bbbbb
+aaaaa aaaaa
+!       !
+
+ababb ababb
+aaaaa aaaab
+aaaaa aaaac
+aaabb aaaac
+abbbb abbbc
+aabcc bbccc
+abbcc aabbb
+abcde abcee
+aabcd abcdd
+12345 54321
+!@#$% %$#@!
+aabbc bbccd
+aaabc abccc
