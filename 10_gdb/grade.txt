@@ -1,0 +1,10 @@
+Grading at Mon 27 Oct 2025 08:51:57 AM UTC
+I expected to find a file called 'input.txt' but it did not exist
+(or was not a regular file)
+Here are the files that I can find:
+game
+game.c
+grade.txt
+README
+
+Overall Grade: FAILED
